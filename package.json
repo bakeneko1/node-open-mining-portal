@@ -1,6 +1,6 @@
 {
     "name": "node-open-mining-portal",
-    "version": "0.0.4",
+    "version": "0.0.1",
     "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
     "keywords": [
         "stratum",
@@ -12,15 +12,14 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/zone117x/node-open-mining-portal",
+    "homepage": "https://github.com/bakeneko1/node-open-mining-portal",
     "bugs": {
-        "url": "https://github.com/zone117x/node-open-mining-portal/issues"
+        "url": "https://github.com/bakeneko1/node-open-mining-portal/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "bakeneko",
     "contributors": [
-        "vekexasia",
-        "TheSeven"
+        "nekomata"
     ],
     "main": "init.js",
     "bin": {
@@ -28,10 +27,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-open-mining-portal.git"
+        "url": "https://github.com/bakeneko1/node-open-mining-portal.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/zone117x/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/bakeneko1/node-open-mining-portal.git",
         "dateformat": "1.0.12",
         "node-json-minify": "*",
         "redis": "0.12.1",
@@ -49,6 +48,6 @@
         "extend": "*"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=6.10.3"
     }
 }
